@@ -17,3 +17,4 @@ print("The sum of the two provided values {0}".format(number1),"and {0}".format(
 
 # another way to display the same message
 print("The sum of the two provided values {0} and {1} is {2}".format(number1,number2,number1+number2))
+print("The sum of "+str(number1) + " and " + str(number2) +" is "+ str((number1+number2)))
