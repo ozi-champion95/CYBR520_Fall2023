@@ -5,8 +5,8 @@
 # print("end of the first for loop.")
 #
 # while loop 1: lines 9-13
-
-# while n <= 10:
+# n = 1
+# while n <= 4:
 #     print("{0}".format(n),"Second loop - Howdy")
 #     n = n+1
 # print("end of the second for loop.")
@@ -15,7 +15,7 @@
 # list and while to iterate through lines 17-23
 
 list_of_names = ["Erica", "John", "Hilary", "mj"]
-# print(list_of_names[2])
+print(list_of_names[2])
 find_name = "MJ"
 for name in list_of_names:
     if find_name.lower() == name.lower():
