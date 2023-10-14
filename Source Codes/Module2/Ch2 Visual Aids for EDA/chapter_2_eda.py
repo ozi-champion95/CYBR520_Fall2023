@@ -11,8 +11,8 @@ Original file is located at
 In this chapter we are going to learn about different visualization techniques using simpler data set.
 """
 
-!pip install faker 
-!pip install radar
+#pip install faker
+#pip install radar
 
 from faker import Faker
 fake = Faker()
